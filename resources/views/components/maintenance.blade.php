@@ -2,7 +2,7 @@
     id="services"
     class="section">
 
-    <div class="container dark-card">
+    <div class="container maintenance-card">
 
         <div class="section-heading left">
 
