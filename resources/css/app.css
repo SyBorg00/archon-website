@@ -957,10 +957,10 @@ img {
 }
 
 /* =========================================
-   MAINTENANCE SECTION
+   SERVICE SECTION
 ========================================= */
 
-.maintenance-card {
+.service-card {
     background-image: url("../../public/shapes-line/bg-service.png");
     background-size: cover;
     background-position: center;
@@ -969,7 +969,7 @@ img {
     padding: 40px;
 }
 
-.maintenance-content {
+.service-content {
     margin-top: 30px;
 
     display: grid;
@@ -980,7 +980,7 @@ img {
     gap: 30px;
 }
 
-.maintenance-image {
+.service-image {
     min-height: 300px;
 
     display: grid;
@@ -1223,7 +1223,7 @@ img {
         grid-template-columns: 1fr 1fr;
     }
 
-    .maintenance-content {
+    .service-content {
         grid-template-columns: 1fr;
     }
 

@@ -14,7 +14,7 @@
 
 @include('components.products')
 
-@include('components.maintenance')
+@include('components.services')
 
 @include('components.news')
 

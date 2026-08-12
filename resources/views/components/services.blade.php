@@ -2,7 +2,7 @@
     id="services"
     class="section">
 
-    <div class="container maintenance-card">
+    <div class="container service-card">
 
         <div class="section-heading left">
 
@@ -12,7 +12,7 @@
 
             <h2>
                 The Best After Sales
-                <span>In Maintenance.</span>
+                <span>In service.</span>
             </h2>
 
             <p>
@@ -23,9 +23,9 @@
         </div>
 
 
-        <div class="maintenance-content">
+        <div class="service-content">
 
-            <div class="maintenance-image">
+            <div class="service-image">
 
                 <img src="{{ asset('images/img-services.png') }}" alt="Services">
 
@@ -36,7 +36,7 @@
 
                 <div class="service-item">
                     <span>
-                        Preventive Maintenance Services
+                        Preventive service Services
                     </span>
 
                     <span>↗</span>
