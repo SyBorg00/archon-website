@@ -2,14 +2,17 @@
 
 $news = [
 [
+'date' => 'March 8, 2025',
 'title' => 'Archon Gives Back to Mother Nature',
 'image' => 'news1.png'
 ],
 [
+'date' => 'March 8, 2025',
 'title' => 'Archon, Sinotruk Strengthen Partnership',
 'image' => 'news2.png'
 ],
 [
+'date' => 'March 8, 2025',
 'title' => 'Philcon Event 2025',
 'image' => 'news3.png'
 ]
@@ -52,6 +55,10 @@ $news = [
 
 
                 <div class="news-info">
+
+                    <h5>
+                        {{ $article['date'] }}
+                    </h5>
 
                     <h3>
                         {{ $article['title'] }}

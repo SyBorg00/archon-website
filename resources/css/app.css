@@ -1177,6 +1177,12 @@ img {
    NEWS SECTION
 ========================================= */
 
+.news {
+    background-image: url("../../public/images/bg-article.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 /*The main container of this section*/
 .news-grid {
@@ -1185,14 +1191,14 @@ img {
     grid-template-columns:
         repeat(3, 1fr);
 
-    gap: 25px;
+    gap: 50px;
 }
 
 /* main card container for the news details */
 .news-card {
     overflow: hidden;
 
-    border-radius: 10px;
+    border-radius: 20px;
 
     background: white;
 
@@ -1206,14 +1212,14 @@ img {
 
 /* The image of the news cards */
 .news-image {
-    height: 190px;
+    height: 400px;
     display: grid;
     place-items: center;
 
     background: #333;
     color: white;
 
-    border-radius: 20px;
+    border-radius: 0 0 20px 20px;
     overflow: hidden;
 }
 
@@ -1239,12 +1245,15 @@ img {
 
 }
 
+.news-info h5 {
+    font-size: 10px;
+}
+
 .news-info a {
     margin-top: auto;
     align-self: flex-end;
 
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 16px;
 
     text-decoration: none;
 
