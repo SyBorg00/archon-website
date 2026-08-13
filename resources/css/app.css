@@ -1004,61 +1004,174 @@ img {
 }
 
 /* =========================================
-   SERVICE SECTION
+   SERVICES SECTION
 ========================================= */
 
+
+/* main container with an image as a bg */
 .service-card {
     background-image: url("../../public/shapes-line/bg-service.png");
-    background-size: cover;
-    background-position: center 70%;
+    background-size: 90% 90%;
+    background-position: center 120%;
     background-repeat: no-repeat;
     border-radius: 30px;
-    padding: 40px;
+    padding: 0px 100px 0px 100px;
 }
 
-
-.service-content {
-    margin-top: 30px;
-
+/* grid to separate into two different columns */
+.service-grid {
     display: grid;
 
-    grid-template-columns:
-        1.2fr 1fr;
+    grid-template-columns: 1fr 1fr;
 
-    gap: 30px;
+    gap: 50px;
+
+    align-items: start;
 }
 
-.service-image {
-    min-height: 300px;
-
-    display: grid;
-    place-items: center;
-
-    border-radius: 15px;
-
-    background: #333;
-
-    color: #777;
+/* the golden text in this section */
+.service-grid strong {
+    color: #c9a227;
 }
 
-.service-list {
+/* left side of grid */
+
+.service-left {
     display: flex;
     flex-direction: column;
 }
 
+/* right side of grid */
+
+.service-content {
+    align-self: end;
+    height: 400px;
+
+    overflow-y: auto;
+
+    padding-right: 10px;
+}
+
+
+
+/* the scrollbar modification of the service content */
+.service-content::-webkit-scrollbar {
+    width: 5px;
+}
+
+.service-content::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.service-content::-webkit-scrollbar-thumb {
+    background: #D95B40;
+    border-radius: 10px;
+}
+
+/* the image div and the actual image */
+.service-image {
+
+    margin-top: 10%;
+    min-height: 200px;
+
+    height: 60%;
+    width: 75%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+
+    border-radius: 15px;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+/* the div that consists of list of services on the right side */
+.service-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* the item of each list and their respective texts modification */
 .service-item {
     padding: 20px 10px;
 
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
 
     border-bottom: 1px solid #555;
+
+    cursor: pointer;
+
+    transition: background 0.3s ease;
+}
+
+/* just for a nice visual clarification */
+.service-item:hover {
+    background: rgba(255, 255, 255, 0.03);
 }
 
 .service-item:last-child {
     border-bottom: none;
 }
 
+.service-item h3 {
+    margin: 0;
+
+    font-size: 22px;
+    line-height: 1.2;
+}
+
+
+/* those things that appear when clikcing on the item */
+
+.service-description {
+    grid-column: 1 / -1;
+
+    max-height: 0;
+    margin: 0;
+
+    overflow: hidden;
+
+    opacity: 0;
+
+    color: #aaa;
+    font-size: 14px;
+    line-height: 1.6;
+
+    transition:
+        max-height 0.4s ease,
+        opacity 0.3s ease,
+        margin-top 0.3s ease;
+}
+
+/* The arrow */
+.service-arrow {
+    font-size: 24px;
+
+    transition: transform 0.3s ease;
+}
+
+.service-item.active .service-description {
+    max-height: 150px;
+
+    margin-top: 12px;
+
+    opacity: 1;
+}
+
+
+.service-item.active .service-arrow {
+    transform: rotate(90deg);
+}
 
 /* =========================================
    NEWS SECTION
