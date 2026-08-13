@@ -1,26 +1,3 @@
-@php
-
-$news = [
-[
-'date' => 'March 8, 2025',
-'title' => 'Archon Gives Back to Mother Nature',
-'image' => 'news1.png'
-],
-[
-'date' => 'March 8, 2025',
-'title' => 'Archon, Sinotruk Strengthen Partnership',
-'image' => 'news2.png'
-],
-[
-'date' => 'March 8, 2025',
-'title' => 'Philcon Event 2025',
-'image' => 'news3.png'
-]
-];
-
-@endphp
-
-
 <section class="section news">
 
     <div class="container">
@@ -47,21 +24,31 @@ $news = [
 
                 <div class="news-image">
 
-                    <img
+                    <!-- <img
                         src="{{ asset('images/' . $article['image']) }}"
-                        alt="{{ $article['title'] }}">
+                        alt="{{ $article['title'] }}"> -->
+
+                    <img
+                        src="{{ asset('images/' . $article->image_url) }}"
+                        alt="{{ $article->title }}">
 
                 </div>
 
-
+                <!-- <h5>
+                        {{ $article['date'] }}
+                    </h5> -->
                 <div class="news-info">
 
                     <h5>
-                        {{ $article['date'] }}
+                        {{ $article->date->format('F j, Y') }}
                     </h5>
 
-                    <h3>
+                    <!-- <h3>
                         {{ $article['title'] }}
+                    </h3> -->
+
+                    <h3>
+                        {{ $article->title }}
                     </h3>
 
                     <a href="#">
@@ -80,3 +67,26 @@ $news = [
     </div>
 
 </section>
+
+<!-- fallback in case the database won't work -->
+{{-- @php
+
+$news = [
+[
+'date' => 'March 8, 2025',
+'title' => 'Archon Gives Back to Mother Nature',
+'image' => 'news1.png'
+],
+[
+'date' => 'March 8, 2025',
+'title' => 'Archon, Sinotruk Strengthen Partnership',
+'image' => 'news2.png'
+],
+[
+'date' => 'March 8, 2025',
+'title' => 'Philcon Event 2025',
+'image' => 'news3.png'
+]
+];
+
+@endphp--}}

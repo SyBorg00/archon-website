@@ -4,11 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Products;
 
-
 class ProductsController extends Controller
 {
-
-    //not used -- used to load products on the home page
     public function index()
     {
         $products = Products::all();
