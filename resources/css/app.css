@@ -201,7 +201,7 @@ img {
     color: white;
 }
 
-
+/* main container and grid divider to 2x2 */
 .banner-container {
     display: grid;
 
@@ -216,7 +216,7 @@ img {
     margin-bottom: 100 px;
 }
 
-
+/* 1st row and column  */
 .banner-title {
     grid-column: 1;
     grid-row: 1;
@@ -251,6 +251,7 @@ img {
     color: #c9a227;
 }
 
+/* 1st row 2nd column  */
 .banner-description {
     grid-column: 2;
     grid-row: 1;
@@ -274,7 +275,7 @@ img {
     line-height: 1.7;
 }
 
-
+/* 2nd row 1st col */
 .banner-secondary {
     grid-column: 1;
     grid-row: 2;
@@ -315,6 +316,7 @@ img {
     font-size: 16px;
 }
 
+/* last row and col */
 
 .banner-image {
     grid-column: 2;
