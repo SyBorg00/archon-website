@@ -1,3 +1,11 @@
+This is a test website project, utilizing only pure Laravel framework. For initialization of the database - and to properly run the website, enter the following commands:
+
+- php artisan migrate
+- php artisan db:seed --class=ProductsSeeder
+- php artisan db:seed --class=NewsSeeder
+
+- ensure to configure the .env and name the database "archon-website"
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
