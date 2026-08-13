@@ -51,10 +51,13 @@
                         {{ $article->title }}
                     </h3>
 
-                    <a href="#">
-                        <span class="golden-text">→</span>
-                        Read Article
-                    </a>
+                    <div class="article-link">
+                        <a href="#">
+                            <span class="golden-text">→</span>
+                            Read Article
+                        </a>
+                    </div>
+
 
                 </div>
 

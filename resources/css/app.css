@@ -1292,6 +1292,7 @@ img {
 .news-info h3 {
     font-size: 16px;
     font-weight: 900;
+    margin-top: 10px;
 
 }
 
@@ -1303,21 +1304,30 @@ img {
     margin-top: auto;
     align-self: flex-end;
 
-    font-size: 16px;
+    font-size: 17px;
 
     text-decoration: none;
 
-    padding-bottom: 4px;
 
-    border-bottom: 2px solid #9D0211;
 
     transition: color 0.2s ease
+}
+
+.article-link {
+    padding-bottom: 4px;
+    width: 250px;
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+    border-bottom: 2px solid #9D0211;
 }
 
 /* A bit of also a nice color change animation */
 .news-info a:hover {
     color: #90000d;
     border-color: #90000d;
+
 }
 
 
