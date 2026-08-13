@@ -24,50 +24,96 @@
         <!-- Form -->
         <div class="quote-form-area">
 
+            @if (session('success'))
+
+            <!-- success validation -->
+            <div class="form-success">
+                {{ session('success') }}
+            </div>
+
+            @endif
+
+            <!-- error validation -->
+            @if ($errors->any())
+
+            <div class="form-errors">
+
+                <ul>
+
+                    @foreach ($errors->all() as $error)
+
+                    <li>
+                        {{ $error }}
+                    </li>
+
+                    @endforeach
+
+                </ul>
+
+            </div>
+
+            @endif
+
+
             <form
-                action="#"
+                action="{{ route('quote.store') }}"
                 method="POST"
                 class="quote-form">
 
                 @csrf
+
 
                 <div class="form-grid">
 
                     <input
                         type="text"
                         name="name"
-                        placeholder="Full Name">
+                        placeholder="Full Name"
+                        value="{{ old('name') }}"
+                        required>
+
 
                     <input
                         type="email"
                         name="email"
-                        placeholder="Email Address">
+                        placeholder="Email Address"
+                        value="{{ old('email') }}"
+                        required>
+
 
                     <input
                         type="text"
                         name="phone"
-                        placeholder="Phone Number">
+                        placeholder="Phone Number"
+                        value="{{ old('phone') }}"
+                        required>
+
 
                     <input
                         type="text"
                         name="company"
-                        placeholder="Company">
+                        placeholder="Company"
+                        value="{{ old('company') }}">
 
                 </div>
 
                 <textarea
                     name="message"
-                    placeholder="Your Message"></textarea>
+                    placeholder="Your Message"
+                    required>{{ old('message') }}</textarea>
+
 
                 <label class="checkbox">
 
                     <input
                         type="checkbox"
-                        name="privacy">
+                        name="privacy"
+                        required>
 
                     I accept the privacy and terms.
 
                 </label>
+
 
                 <button
                     type="submit"
