@@ -135,21 +135,3 @@
     </div>
 
 </section>
-
-
-<!-- Might as well put this mini-script in this rather 
-than to clump it up in the main js file -->
-<script>
-    const aboutCards = document.querySelectorAll('.about-card');
-
-    aboutCards.forEach(card => {
-        card.addEventListener('click', () => {
-
-            aboutCards.forEach(item => {
-                item.classList.remove('active');
-            });
-
-            card.classList.add('active');
-        });
-    });
-</script>
