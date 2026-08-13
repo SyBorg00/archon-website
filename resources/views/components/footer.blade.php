@@ -65,10 +65,9 @@
                 </div>
             </div>
 
-
             <div class="footer-second-grid">
 
-
+                <!-- specifically the quick links and the description -->
                 <div class="footer-third-grid">
                     <div class="footer-links">
                         <h3 style="width: 100%;">
@@ -99,28 +98,19 @@
                 </div>
 
 
-
-
-
+                <!-- the subsection where you enter the email -->
                 <div class="newsletter">
 
                     <input
                         type="email"
-                        placeholder="Enter your email">
+                        placeholder="Enter your email to receive curated content, including industry alerts, news, and insights...">
 
                     <button>
                         Subscribe
                     </button>
 
                 </div>
-
-
-
-
             </div>
-
-
-
 
         </div>
 
