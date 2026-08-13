@@ -458,7 +458,9 @@ img {
 /* Main containter for this section */
 .quote-container {
     display: grid;
-
+    background-image: url("../../public/shapes-line/bg-rqst-quote.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     grid-template-columns:
         1.8fr 1fr;
 
@@ -467,14 +469,14 @@ img {
     padding: 40px;
 
     border-radius: 20px;
-    background-image: url("../../public/shapes-line/bg-rqst\ quote.png");
+
 
 
     position: relative;
 
     /* Overlapping magic  */
     position: relative;
-    margin-top: -200px;
+    margin-top: -180px;
 
     z-index: 10;
 
