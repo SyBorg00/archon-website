@@ -6,6 +6,7 @@
 
         <div class="footer-grid">
 
+            <!-- The supposed contact subsection -->
             <div>
 
                 <h3>
@@ -17,7 +18,7 @@
                     hesitate to reach out our team
                 </p>
 
-                <hr size="2">
+                <hr>
 
                 <p>
                     Where we located:
@@ -29,7 +30,7 @@
                     District, Davao City
                 </p>
 
-                <hr size="2">
+                <hr>
 
                 <p>Send us email</p>
 
@@ -37,7 +38,7 @@
                     info@archonmachineries.com
                 </p>
 
-                <hr size="2">
+                <hr>
 
                 <p>Dial us today</p>
 
@@ -45,56 +46,85 @@
                     +(63)917 133 0643
                 </p>
 
-                <hr size="2">
+                <hr>
+
+                <p>Follow us on</p>
+                <div class="social-icons">
+                    <a href="#home">
+                        <img src="{{ asset('icons/fb.png') }}" alt="FB Icon" class="footer-icon">
+                    </a>
+                    <a href="#home">
+                        <img src="{{ asset('icons/linkedIn.png') }}" alt="LinkedIn Icon" class="footer-icon">
+                    </a>
+                    <a href="#home">
+                        <img src="{{ asset('icons/tiktok.png') }}" alt="Tiktok Icon" class="footer-icon">
+                    </a>
+                    <a href="#home">
+                        <img src="{{ asset('icons/yt.png') }}" alt="YT Icon" class="footer-icon">
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="footer-second-grid">
+
+
+                <div class="footer-third-grid">
+                    <div class="footer-links">
+                        <h3 style="width: 100%;">
+                            Quick Links
+                        </h3>
+                        <a href="#home">About Us</a>
+                        <a href="#products">Services</a>
+                        <a href="#services">Products</a>
+                        <a href="#about">News</a>
+                        <a href="#about">Brand New</a>
+                        <a href="#contact">Contact us</a>
+                        <a href="#contact">Parts</a>
+                    </div>
+
+                    <div>
+                        <img src="{{ asset('images/footer-logo.png') }}" alt="Footer Logo" style="width: 60px; height: 70px">
+
+                        <h3>
+                            ARCHON SPECIAL MACHINERIES INC.
+                        </h3>
+
+                        <p>
+                            Is the leading distributor of trucks & heavy equipment nationwide. We are a certified partner and dealer of SINOTRUK, the largest
+                            and number one manufacturer of trucks and heavy equipment in China.
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="newsletter">
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email">
+
+                    <button>
+                        Subscribe
+                    </button>
+
+                </div>
+
+
+
 
             </div>
 
 
-            <div>
 
-                <h3>
-                    Quick Links
-                </h3>
-
-                <a href="#home">Home</a>
-                <a href="#products">Products</a>
-                <a href="#services">Services</a>
-                <a href="#about">About Us</a>
-                <a href="#contact">Contact</a>
-
-            </div>
-
-
-            <div>
-                <img src="{{ asset('images/footer-logo.png') }}" alt="Footer Logo" style="width: 60px; height: 70px">
-
-                <h3>
-                    ARCHON SPECIAL MACHINERIES INC.
-                </h3>
-
-                <p>
-                    Is the leading distributor of trucks & heavy equipment nationwide. We are a certified partner and dealer of SINOTRUK, the largest
-                    and number one manufacturer of trucks and heavy equipment in China.
-                </p>
-
-            </div>
 
         </div>
 
-
-        <div class="newsletter">
-
-            <input
-                type="email"
-                placeholder="Enter your email">
-
-            <button>
-                Subscribe
-            </button>
-
-        </div>
-
-
+        <!-- separate from the main grid to not be affected by it -->
         <div class="copyright">
 
             <span>
@@ -106,6 +136,10 @@
             </span>
 
         </div>
+
+
+
+
 
     </div>
 
