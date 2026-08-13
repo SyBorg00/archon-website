@@ -1452,6 +1452,10 @@ img {
     font-size: 14px;
 }
 
+.quick-links a:hover {
+    color: #c9a227;
+}
+
 /* the newsletter subsection */
 .newsletter {
     display: flex;
@@ -1497,8 +1501,6 @@ img {
     background-color: #3d3d3d;
     border-radius: 15px;
 
-
-
     color: white;
 
     font-size: 14px;
@@ -1513,6 +1515,10 @@ img {
     color: white;
     display: inline-block;
     text-decoration: none;
+}
+
+.copyright p a:hover {
+    color: #c9a227;
 }
 
 /* =========================================
