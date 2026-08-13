@@ -1563,6 +1563,164 @@ img {
 }
 
 /* =========================================
+NOTIFICATION SECTION 
+--------------------------------------------
+   this is where the notification components styles are located
+============================================*/
+
+/*  */
+.notification {
+    position: fixed;
+
+    top: 30px;
+    right: 30px;
+
+    width: 380px;
+
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 18px 20px;
+
+    background: #111;
+
+    border-radius: 10px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+    z-index: 9999;
+
+    animation: notificationSlideIn 0.4s ease;
+}
+
+
+/* Success notification style */
+
+.notification-success {
+    border-left: 5px solid #CB9F53;
+}
+
+.notification-success .notification-icon {
+    background: #CB9F53;
+    color: #111;
+}
+
+.notification-success .notification-content strong {
+    color: #CB9F53;
+}
+
+/* Error notification style */
+
+.notification-error {
+    border-left: 5px solid #D95B40;
+}
+
+.notification-error .notification-icon {
+    background: #D95B40;
+    color: white;
+}
+
+.notification-error .notification-content strong {
+    color: #D95B40;
+}
+
+
+/* Notification icon style */
+
+.notification-icon {
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border-radius: 50%;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* Notification content style */
+
+.notification-content {
+    flex: 1;
+}
+
+.notification-content strong {
+    display: block;
+
+    margin-bottom: 3px;
+
+    font-size: 16px;
+}
+
+.notification-content p {
+    margin: 0;
+
+    color: white;
+
+    font-size: 14px;
+}
+
+
+/* Notification close style */
+
+.notification-close {
+    border: none;
+
+    background: transparent;
+
+    color: #aaa;
+
+    font-size: 24px;
+
+    line-height: 1;
+
+    cursor: pointer;
+}
+
+.notification-close:hover {
+    color: white;
+}
+
+
+/* The animations used for the notification component */
+
+@keyframes notificationSlideIn {
+
+    from {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes notificationSlideOut {
+
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+}
+
+/* =========================================
    RESPONSIVE SECTION
 ========================================= */
 

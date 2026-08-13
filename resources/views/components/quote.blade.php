@@ -24,16 +24,7 @@
         <!-- Form -->
         <div class="quote-form-area">
 
-            @if (session('success'))
-
-            <!-- success validation -->
-            <div class="form-success">
-                {{ session('success') }}
-            </div>
-
-            @endif
-
-            <!-- error validation -->
+            <!-- error validation (No need for success validation. The notification component handles it now-->
             @if ($errors->any())
 
             <div class="form-errors">
