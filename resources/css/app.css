@@ -35,7 +35,9 @@ img {
 
 
 /* =========================================
-   GLOBAL STYLES 
+GLOBAL STYLES 
+---------------------------------------
+    Where all other styles are inherited from
 ========================================= */
 
 .container {
@@ -76,14 +78,16 @@ img {
 
 .section-heading h2 span,
 .section-heading h2 strong {
-    color: #c9a227;
+    color: #CB9F53;
 }
 
-
 /* =========================================
-   NAVBAR SECTION
+NAVBAR SECTION
+---------------------------------------
+    The style used by the NavBar component
 ========================================= */
 
+/* main container */
 .navbar {
     position: sticky;
     top: 0;
@@ -93,6 +97,7 @@ img {
     border-bottom: 1px solid #292929;
 }
 
+/* the actual container that displays the content */
 .nav-container {
     min-height: 75px;
 
@@ -101,6 +106,7 @@ img {
     justify-content: space-between;
 }
 
+/* logo styles */
 .logo {
     display: flex;
     align-items: center;
@@ -114,9 +120,9 @@ img {
     display: grid;
     place-items: center;
 
-    border: 2px solid #c9a227;
+    border: 2px solid #CB9F53;
 
-    color: #c9a227;
+    color: #CB9F53;
     font-weight: bold;
 }
 
@@ -134,6 +140,7 @@ img {
     font-size: 7px;
 }
 
+/* navbar style */
 .desktop-nav {
     display: flex;
     align-items: center;
@@ -148,7 +155,7 @@ img {
 }
 
 .desktop-nav a:hover {
-    color: #c9a227;
+    color: #CB9F53;
 }
 
 .nav-quote,
@@ -165,7 +172,7 @@ img {
 
 .nav-quote:hover,
 .primary-button:hover {
-    background: #e00018;
+    background: #D95B40;
 }
 
 .menu-button {
@@ -184,9 +191,12 @@ img {
 }
 
 /* =========================================
-   BANNER SECTION
+BANNER SECTION
+---------------------------------------
+    Styles used by the banner component
 ========================================= */
 
+/* main container */
 .banner {
     position: relative;
     min-height: 600px;
@@ -216,7 +226,7 @@ img {
 }
 
 
-/* main container and grid divider to 2x2 */
+/* the one that displays the content*/
 .banner-container {
     position: relative;
     z-index: 1;
@@ -242,7 +252,7 @@ img {
 }
 
 .banner-title .golden-text {
-    color: #c9a227;
+    color: #CB9F53;
 
     font-size: 14px;
     font-weight: 700;
@@ -265,7 +275,7 @@ img {
 }
 
 .banner-title h1 strong {
-    color: #c9a227;
+    color: #CB9F53;
 }
 
 /* 1st row 2nd column  */
@@ -327,7 +337,7 @@ img {
 
     padding: 0;
 
-    color: #c9a227;
+    color: #CB9F53;
 
     cursor: pointer;
 
@@ -335,7 +345,6 @@ img {
 }
 
 /* last row and col */
-
 .banner-image {
     grid-column: 2;
     grid-row: 2;
@@ -411,10 +420,12 @@ img {
 }
 
 /* =========================================
-   ABOUT SECTION
+ABOUT SECTION
+---------------------------------------
+    Styles used by the About component
 ========================================= */
 
-
+/* main container */
 .about {
     background: #272727;
     background-image: url("../../public/images/world-map-2.png");
@@ -433,6 +444,7 @@ img {
     font-size: clamp(25px, 3vw, 36px);
 }
 
+/* the one that holds the content */
 .about-grid {
     margin-top: 40px;
 
@@ -444,6 +456,7 @@ img {
     gap: 20px;
 }
 
+/* those individual cards displayed */
 .about-card {
     min-height: 155px;
 
@@ -514,7 +527,9 @@ img {
 
 
 /* =========================================
-   QUOTE SECTION
+QUOTE SECTION
+---------------------------------------
+    Styles used by the Quote component
 ========================================= */
 
 /* Main containter for this section */
@@ -664,7 +679,7 @@ img {
 }
 
 .submit-button:hover {
-    background: #a80010;
+    background: #D95B40;
 }
 
 /*The brochure subsection and the text inside it*/
@@ -727,7 +742,7 @@ img {
 }
 
 .brochure-list a {
-    color: #c9a227;
+    color: #CB9F53;
 }
 
 .brochure-button {
@@ -754,9 +769,12 @@ img {
 }
 
 /* =========================================
-   PARTNERS SECTION
+PARTNERS SECTION
+---------------------------------------
+    Styles used by the Partners component
 ========================================= */
 
+/* main component */
 .partners-container {
     padding: 30px 70px 30px 70px;
 
@@ -813,8 +831,12 @@ img {
 
 
 /* =========================
-   PRODUCT SECTION
+PRODUCT SECTION
+---------------------------------------
+    Styles used by the Product component
 ========================= */
+
+/* the container that dsiplays the content */
 .product-grid {
     display: grid;
 
@@ -864,13 +886,11 @@ img {
     transition: transform 0.3s ease;
 }
 
-
 /* Slight enlargement when hovering */
 
 .product-card:hover .product-image img {
     transform: scale(1.05);
 }
-
 
 /* The yellow rectangle itself */
 
@@ -948,7 +968,7 @@ img {
 }
 
 
-/* Hide palette when product is clicked */
+/* Hide palette element when product is clicked */
 
 .product-card.active .product-colors {
     opacity: 0;
@@ -1071,7 +1091,9 @@ img {
 }
 
 /* =========================================
-   SERVICES SECTION
+SERVICES SECTION
+---------------------------------------
+    Styles used by the Services component
 ========================================= */
 
 
@@ -1110,7 +1132,7 @@ img {
     pointer-events: none;
 }
 
-/* grid to separate into two different columns */
+/* The one that displays the content*/
 .service-grid {
     display: grid;
 
@@ -1126,7 +1148,7 @@ img {
 
 /* the golden text in this section */
 .service-grid strong {
-    color: #c9a227;
+    color: #CB9F53;
 }
 
 /* left side of grid */
@@ -1146,8 +1168,6 @@ img {
 
     padding-right: 10px;
 }
-
-
 
 /* the scrollbar modification of the service content */
 .service-content::-webkit-scrollbar {
@@ -1226,7 +1246,7 @@ img {
 }
 
 
-/* those things that appear when clikcing on the item */
+/* those things that appear when clicking on the item */
 
 .service-description {
     grid-column: 1 / -1;
@@ -1269,9 +1289,12 @@ img {
 }
 
 /* =========================================
-   NEWS SECTION
+NEWS SECTION
+---------------------------------------
+    Styles used by the News component
 ========================================= */
 
+/* main container */
 .news {
     background-image: url("../../public/images/bg-article.png");
     background-position: center;
@@ -1279,7 +1302,7 @@ img {
     background-size: contain;
 }
 
-/*The main container of this section*/
+/*The container that holds the content*/
 .news-grid {
     display: grid;
 
@@ -1353,8 +1376,6 @@ img {
 
     text-decoration: none;
 
-
-
     transition: color 0.2s ease
 }
 
@@ -1377,7 +1398,9 @@ img {
 
 
 /* =========================================
-   FOOTER SECTION
+FOOTER SECTION
+---------------------------------------
+    Styles used by the Footer component
 ========================================= */
 
 /* main container */
@@ -1437,7 +1460,6 @@ img {
 
 }
 
-
 /* this should be for the quick links, some details and the subscription emails */
 .footer-second-grid {
     display: grid;
@@ -1472,9 +1494,8 @@ img {
     font-size: 13px;
 }
 
-
 .footer .gold {
-    color: #c9a227;
+    color: #CB9F53;
 }
 
 .footer-links {
@@ -1494,7 +1515,7 @@ img {
 }
 
 .quick-links a:hover {
-    color: #c9a227;
+    color: #CB9F53;
 }
 
 /* the newsletter subsection */
@@ -1529,7 +1550,6 @@ img {
     cursor: pointer;
 }
 
-
 /* copyright subsection */
 .copyright {
     display: flex;
@@ -1559,16 +1579,15 @@ img {
 }
 
 .copyright p a:hover {
-    color: #c9a227;
+    color: #CB9F53;
 }
 
 /* =========================================
 NOTIFICATION SECTION 
---------------------------------------------
-   this is where the notification components styles are located
-============================================*/
+---------------------------------------
+    Styles used by the Notification component
+========================================= */
 
-/*  */
 .notification {
     position: fixed;
 
@@ -1594,7 +1613,6 @@ NOTIFICATION SECTION
 
     animation: notificationSlideIn 0.4s ease;
 }
-
 
 /* Success notification style */
 
@@ -1721,7 +1739,9 @@ NOTIFICATION SECTION
 }
 
 /* =========================================
-   RESPONSIVE SECTION
+RESPONSIVE SECTION
+---------------------------------------
+    The section that handles dynamic screen changes (not touched much)
 ========================================= */
 
 @media (max-width: 768px) {
