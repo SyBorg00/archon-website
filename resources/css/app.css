@@ -1087,8 +1087,7 @@ img {
 
     border-bottom: 2px solid #c60012;
 
-    transition: color 0.2s ease,
-        border-color 0.2s ease;
+    transition: color 0.2s ease
 }
 
 /* A bit of also a nice color change animation */

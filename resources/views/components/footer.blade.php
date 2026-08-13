@@ -66,7 +66,7 @@
 
 
             <div>
-                <img src="{{ asset('resources/footer-logo.png') }}" alt="Footer Logo" style="width: 60px; height: 70px">
+                <img src="{{ asset('images/footer-logo.png') }}" alt="Footer Logo" style="width: 60px; height: 70px">
 
                 <h3>
                     ARCHON SPECIAL MACHINERIES INC.
