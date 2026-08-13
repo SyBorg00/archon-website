@@ -384,6 +384,7 @@ img {
     z-index: 10;
 }
 
+/* the individual arrows themselves */
 .banner-arrow {
     width: 70px;
     height: 55px;
