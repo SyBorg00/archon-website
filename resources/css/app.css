@@ -1017,6 +1017,8 @@ img {
    NEWS SECTION
 ========================================= */
 
+
+/*The main container of this section*/
 .news-grid {
     display: grid;
 
@@ -1026,6 +1028,7 @@ img {
     gap: 25px;
 }
 
+/* main card container for the news details */
 .news-card {
     overflow: hidden;
 
@@ -1041,6 +1044,7 @@ img {
     transform: scale(1.03);
 }
 
+/* The image of the news cards */
 .news-image {
     height: 190px;
     display: grid;
@@ -1059,6 +1063,7 @@ img {
     object-fit: cover;
 }
 
+/* the text part of the card */
 .news-info {
     display: flex;
     flex-direction: column;
