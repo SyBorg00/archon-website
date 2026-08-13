@@ -59,6 +59,18 @@
                 src="{{ asset('images/img-banner.png') }}"
                 alt="Heavy Duty Truck">
 
+            <div class="banner-arrows">
+
+                <button class="banner-arrow banner-arrow-next" type="button">
+                    →
+                </button>
+
+                <button class="banner-arrow banner-arrow-prev" type="button">
+                    ←
+                </button>
+
+            </div>
+
         </div>
 
     </div>

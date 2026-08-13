@@ -215,6 +215,7 @@ img {
     z-index: 0;
 }
 
+
 /* main container and grid divider to 2x2 */
 .banner-container {
     position: relative;
@@ -359,7 +360,6 @@ img {
 .banner-image img {
     width: 110%;
     max-width: none;
-
     height: auto;
 
     object-fit: contain;
@@ -368,6 +368,46 @@ img {
     z-index: 5;
 }
 
+/* those arrows next to the truck img */
+.banner-arrows {
+    position: absolute;
+
+    left: -160px;
+    top: 20%;
+
+    transform: translateY(-50%);
+
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    z-index: 10;
+}
+
+.banner-arrow {
+    width: 70px;
+    height: 55px;
+
+    border: none;
+    background: transparent;
+
+    color: white;
+    font-family: inherit;
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 0.7;
+
+    cursor: default;
+}
+
+/* just so that it does not align for variety */
+.banner-arrow-next {
+    transform: translateX(14px);
+}
+
+.banner-arrow-prev {
+    transform: translateX(-14px);
+}
 
 /* =========================================
    ABOUT SECTION
