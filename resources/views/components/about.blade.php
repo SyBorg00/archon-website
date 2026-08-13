@@ -118,7 +118,7 @@
                     started as a young entrant in the industry with only three (3) surplus units
                     on hand has now become a top plater with over 1,000 employees nationwide.
                 </p>
-
+                <br>
                 <p>
                     We have partnered with China's leading brands, created multiple service station
                     natonwide, and establisedh Gateway - the reliable parts provider,
