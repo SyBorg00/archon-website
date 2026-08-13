@@ -963,11 +963,12 @@ img {
 .service-card {
     background-image: url("../../public/shapes-line/bg-service.png");
     background-size: cover;
-    background-position: center;
+    background-position: center 70%;
     background-repeat: no-repeat;
     border-radius: 30px;
     padding: 40px;
 }
+
 
 .service-content {
     margin-top: 30px;

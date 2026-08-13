@@ -12,12 +12,19 @@
 
             <h2>
                 The Best After Sales
-                <span>In service.</span>
+                <span>In Maintenance</span>
             </h2>
 
             <p>
-                Professional maintenance and after-sales
-                services to keep your trucks running.
+                An excellent After-Sales Maintenance Service with
+                state of the art facility and highly skilled After-Sales
+                support team.
+            </p>
+
+            <p>
+                We will assign a dedicated After-Sales Representative to cater to your servicing
+                needs. A highlt skilled mechanics are always ready to assist in all
+                technical concerns.
             </p>
 
         </div>
@@ -35,44 +42,60 @@
             <div class="service-list">
 
                 <div class="service-item">
-                    <span>
-                        Preventive service Services
-                    </span>
+
+                    <h3>
+                        <strong>Preventive</strong>
+                        Maintenance Services
+                    </h3>
 
                     <span>↗</span>
                 </div>
 
                 <div class="service-item">
-                    <span>
-                        Truck Rehab
-                    </span>
+                    <h3>
+                        <strong>Truck</strong>
+                        Rehab
 
-                    <span>↗</span>
+                        <span>↗</span>
+                    </h3>
                 </div>
 
                 <div class="service-item">
-                    <span>
-                        On-site Rescue
-                    </span>
+                    <h3>
+                        <strong>On-site</strong>
+                        Rescue
 
-                    <span>↗</span>
+                        <span>↗</span>
+                    </h3>
                 </div>
 
                 <div class="service-item">
-                    <span>
-                        Repair or Replace
-                    </span>
+                    <h3>
+                        <strong>Repair</strong>
+                        or Replace
 
-                    <span>↗</span>
+                        <span>↗</span>
+                    </h3>
                 </div>
 
                 <div class="service-item">
-                    <span>
+                    <h3>
+
                         Overhauling
-                    </span>
 
-                    <span>↗</span>
+                        <span>↗</span>
+                    </h3>
                 </div>
+
+
+
+
+
+
+
+
+
+
 
             </div>
 

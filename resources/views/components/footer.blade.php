@@ -13,17 +13,39 @@
                 </h3>
 
                 <p>
-                    Get in touch with Archon
-                    Sinotruk Machineries.
+                    If you have any questions or need assistance, don't
+                    hesitate to reach out our team
+                </p>
+
+                <hr size="2">
+
+                <p>
+                    Where we located:
                 </p>
 
                 <p class="gold">
-                    +63 912 345 6789
+                    Door 14-18 Asiaprime Center, G. Del Pilar St.
+                    Corner Dacudao Avenue Brgy. Agdao Proper, Agdao
+                    District, Davao City
                 </p>
+
+                <hr size="2">
+
+                <p>Send us email</p>
 
                 <p class="gold">
                     info@archonmachineries.com
                 </p>
+
+                <hr size="2">
+
+                <p>Dial us today</p>
+
+                <p class="gold">
+                    +(63)917 133 0643
+                </p>
+
+                <hr size="2">
 
             </div>
 
