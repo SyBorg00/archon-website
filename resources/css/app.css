@@ -39,7 +39,7 @@ img {
 ========================================= */
 
 .container {
-    width: min(1200px, calc(100% - 40px));
+    width: min(1600px, calc(100% - 40px));
     margin: auto;
 }
 
@@ -212,6 +212,8 @@ img {
     row-gap: 40px;
 
     align-items: center;
+
+    margin-bottom: 100 px;
 }
 
 
@@ -259,12 +261,13 @@ img {
     align-items: flex-start;
 
     text-align: left;
+    font-size: 20px;
 }
 
 .banner-description p {
     max-width: 450px;
 
-    margin: 0 0 25px;
+    margin: 0 0 35px;
 
     color: #aaa;
 
@@ -326,15 +329,15 @@ img {
     justify-content: flex-end;
 
     overflow: visible;
-    margin-top: -100px;
-    margin-right: -80px;
+    margin-top: -10px;
+    margin-right: -120px;
     z-index: 5;
     border-radius: 20px;
 
 }
 
 .banner-image img {
-    width: 130%;
+    width: 110%;
     max-width: none;
 
     height: auto;
@@ -474,7 +477,7 @@ img {
 
 }
 
-/* the header */
+/* the header and the text inside it */
 .quote-header {
     grid-column: 1 / -1;
 
@@ -489,10 +492,10 @@ img {
 
 .quote-header p {
     max-width: 500px;
-
+    font-size: 14px;
     margin: 0;
 
-    color: #aaa;
+    color: black;
 
     line-height: 1.6;
 }
@@ -597,7 +600,7 @@ img {
     background: #a80010;
 }
 
-/*The brochure*/
+/*The brochure subsection and the text inside it*/
 .brochure-card {
     grid-column: 2;
 
@@ -610,11 +613,13 @@ img {
 
     border-radius: 18px;
 
+    background-image: url("../../public/images/brochure.png");
+    background-size: cover;
+
     background:
         linear-gradient(145deg,
             #c56b42,
             #a72d2d),
-        url("../../public/images/brochure.png");
 }
 
 .brochure-card h3 {
@@ -636,12 +641,25 @@ img {
 /*Those yellow texts at the end of the brochure b4 the button*/
 .brochure-list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 
-    align-content: center;
+    justify-items: center;
+    margin-bottom: 30px;
 }
 
-.brochure-list p {
+.brochure-list a {
+    font-size: 14px;
+    font-weight: 600;
+
+    width: fit-content;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.brochure-list a {
     color: #c9a227;
 }
 
@@ -656,7 +674,8 @@ img {
 
     background: white;
 
-    color: #222;
+    color: black;
+    font-weight: 600;
 
     text-decoration: none;
 
@@ -672,7 +691,7 @@ img {
 ========================================= */
 
 .partners-container {
-    padding: 30px;
+    padding: 30px 70px 30px 70px;
 
     display: flex;
 
@@ -683,26 +702,46 @@ img {
 
     background: #111;
     background-image: url("../../public/shapes-line/partners-line-stroke.png");
-    background-size: contain;
+    background-size: 100% 90%;
     background-repeat: no-repeat;
     background-position: center;
+
+    position: relative;
+    overflow: visible;
+
 }
 
 .partner-list {
     display: flex;
     align-items: center;
     gap: 50px;
+
+    position: relative;
+    z-index: 2;
 }
 
+/* The partner container and its image */
 .partner {
-    width: 300px;
-    height: 60px;
+    width: 450px;
+    height: 120px;
     position: relative;
     z-index: 5;
-    margin-top: -10px;
+    margin-top: -60px;
     border-radius: 10px;
 
-    background: #111;
+    background-color: #111;
+    transition: transform 0.3s ease;
+}
+
+.partner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.partner:hover {
+    transform: scale(1.08);
+    z-index: 10;
 }
 
 

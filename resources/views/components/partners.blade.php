@@ -9,7 +9,7 @@
         <div class="partner-list">
 
             <div class="partner">
-                <img src="{{ asset('images/partner1.png') }}" alt="Howo Sinotruck">
+                <img src="{{ asset('images/partner1.png') }}" alt="Howo Sinotruk">
             </div>
 
             <div class="partner">

@@ -6,7 +6,7 @@
         <div class="quote-header">
 
             <span class="golden-text">
-                Let's get started
+                Let's Get Started
             </span>
 
             <h2>
@@ -14,8 +14,8 @@
             </h2>
 
             <p>
-                Fill out the form and we'll get back
-                to you with the best solution.
+                All qoutation are free of charge. Fill
+                out the form below and we'll reach out to you.
             </p>
 
         </div>
@@ -102,11 +102,11 @@
             </p>
 
             <div class="brochure-list">
-                <p>• Construction</p>
-                <p>• Mining</p>
-                <p>• Tracking</p>
-                <p>• Hauling</p>
-                <p>• Retail</p>
+                <a href="#">• Construction</a>
+                <a href="#">• Mining</a>
+                <a href="#">• Tracking</a>
+                <a href="#">• Hauling</a>
+                <a href="#">• Retail</a>
             </div>
             <a
                 href="#"

@@ -4,10 +4,6 @@
 
         <div class="banner-title">
 
-            <span class="golden-text">
-                ARCHON SINOTRUK
-            </span>
-
             <h1>
                 YOUR
                 <span>RELIABLE</span>
