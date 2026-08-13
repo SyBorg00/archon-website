@@ -83,17 +83,20 @@
                         <h3 style="width: 100%;">
                             Quick Links
                         </h3>
-                        <a href="#home">About Us</a>
-                        <a href="#products">Services</a>
-                        <a href="#services">Products</a>
-                        <a href="#about">News</a>
-                        <a href="#about">Brand New</a>
-                        <a href="#contact">Contact us</a>
-                        <a href="#contact">Parts</a>
+                        <div class="quick-links">
+                            <a href="#home">About Us</a>
+                            <a href="#products">Services</a>
+                            <a href="#services">Products</a>
+                            <a href="#about">News</a>
+                            <a href="#about">Brand New</a>
+                            <a href="#contact">Contact us</a>
+                            <a href="#contact">Parts</a>
+                        </div>
+
                     </div>
 
                     <div style="padding-right: 90px;">
-                        <img src="{{ asset('images/footer-logo.png') }}" alt="Footer Logo" style="width: 60px; height: 70px">
+                        <img src="{{ asset('images/footer-logo.png') }}" alt="Footer Logo" style="width: 60px; height: 70px; margin-bottom: 15px;">
 
                         <h3>
                             ARCHON SPECIAL MACHINERIES INC.
