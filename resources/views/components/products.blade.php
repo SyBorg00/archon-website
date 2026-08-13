@@ -1,35 +1,3 @@
-@php
-
-$products = [
-[
-'name' => 'Howo V7-X Dump Truck',
-'image' => 'truck1.png'
-],
-[
-'name' => 'Howo V7 Dump Truck',
-'image' => 'truck2.png'
-],
-[
-'name' => 'Howo TX Dump Truck',
-'image' => 'truck3.png'
-],
-[
-'name' => 'Howo A7 | T7 Prime Mover',
-'image' => 'truck4.png'
-],
-[
-'name' => 'Howo 7 Prime Truck',
-'image' => 'truck5.png'
-],
-[
-'name' => 'Howo A7 | T7 Dump Truck',
-'image' => 'truck6.png'
-]
-];
-
-@endphp
-
-
 <section id="products" class="section products">
 
     <div class="container">
@@ -60,9 +28,12 @@ $products = [
 
 
                     <!-- {{-- Truck image --}} -->
+                    <!-- src="{{ asset('images/' . $product['image']) }}" original link using hardcoded array-->
+                    <!-- alt="{{ $product['name'] }}"> -->
                     <img
-                        src="{{ asset('images/' . $product['image']) }}"
-                        alt="{{ $product['name'] }}">
+                        src="{{ asset('images/' . $product->image_url) }}"
+
+                        alt="{{ $product->name }}">
 
 
                     <!-- {{-- Color palette --}} -->
@@ -166,3 +137,35 @@ $products = [
 
     });
 </script>
+
+<!-- this is a fallback incase the database loading does not work -->
+{{-- @php
+
+$products = [
+[
+'name' => 'Howo V7-X Dump Truck',
+'image' => 'truck1.png'
+],
+[
+'name' => 'Howo V7 Dump Truck',
+'image' => 'truck2.png'
+],
+[
+'name' => 'Howo TX Dump Truck',
+'image' => 'truck3.png'
+],
+[
+'name' => 'Howo A7 | T7 Prime Mover',
+'image' => 'truck4.png'
+],
+[
+'name' => 'Howo 7 Prime Truck',
+'image' => 'truck5.png'
+],
+[
+'name' => 'Howo A7 | T7 Dump Truck',
+'image' => 'truck6.png'
+]
+];
+
+@endphp --}}
