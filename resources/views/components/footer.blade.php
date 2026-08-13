@@ -24,27 +24,37 @@
                     Where we located:
                 </p>
 
-                <p class="gold">
-                    Door 14-18 Asiaprime Center, G. Del Pilar St.
-                    Corner Dacudao Avenue Brgy. Agdao Proper, Agdao
-                    District, Davao City
-                </p>
+                <div class="contact-container">
+                    <img src="{{ asset('icons/location.png') }}" alt="" class="contact-icon">
+                    <p class="gold">
+                        Door 14-18 Asiaprime Center, G. Del Pilar St.
+                        Corner Dacudao Avenue Brgy. Agdao Proper, Agdao
+                        District, Davao City
+                    </p>
+                </div>
 
                 <hr>
 
                 <p>Send us email</p>
 
-                <p class="gold">
-                    info@archonmachineries.com
-                </p>
+
+                <div class="contact-container">
+                    <img src="{{ asset('icons/email.png') }}" alt="" class="contact-icon">
+                    <p class="gold">
+                        info@archonmachineries.com
+                    </p>
+                </div>
 
                 <hr>
 
                 <p>Dial us today</p>
 
-                <p class="gold">
-                    +(63)917 133 0643
-                </p>
+                <div class="contact-container">
+                    <img src="{{ asset('icons/call.png') }}" alt="" class="contact-icon">
+                    <p class="gold">
+                        +(63)917 133 0643
+                    </p>
+                </div>
 
                 <hr>
 
@@ -82,7 +92,7 @@
                         <a href="#contact">Parts</a>
                     </div>
 
-                    <div>
+                    <div style="padding-right: 90px;">
                         <img src="{{ asset('images/footer-logo.png') }}" alt="Footer Logo" style="width: 60px; height: 70px">
 
                         <h3>
@@ -121,9 +131,9 @@
                 Copyright Archon Special Machineries Inc 2025. Designed and Developed by R Web Solutions
             </span>
 
-            <span>
-                Terms and Condition | Privacy Policy.
-            </span>
+
+            <p><a href="#">Terms and Condition</a> | <a href="#">Privacy Policy.</a></p>
+
 
         </div>
 
