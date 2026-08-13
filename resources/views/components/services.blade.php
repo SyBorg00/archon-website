@@ -1,6 +1,6 @@
 <section
     id="services"
-    class="section">
+    class="services">
 
     <div class="container service-card">
 

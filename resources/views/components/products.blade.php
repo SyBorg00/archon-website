@@ -46,12 +46,12 @@
 
                         <span
                             class="color-dot"
-                            style="--dot-color: #d9533f;">
+                            style="--dot-color: #D95B40;">
                         </span>
 
                         <span
                             class="color-dot"
-                            style="--dot-color: #263a83;">
+                            style="--dot-color: #293378;">
                         </span>
 
                     </div>
