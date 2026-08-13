@@ -2,6 +2,7 @@
 
     <div class="container banner-container">
 
+        <!-- 1st row and column -->
         <div class="banner-title">
 
             <h1>
@@ -15,6 +16,7 @@
 
         </div>
 
+        <!-- 1st row 2nd column -->
         <div class="banner-description">
 
             <p>
@@ -29,7 +31,7 @@
 
         </div>
 
-
+        <!-- 2nd row 1st col -->
         <div class="banner-secondary">
 
             <p>
@@ -49,6 +51,7 @@
 
         </div>
 
+        <!-- last row and col -->
 
         <div class="banner-image">
 
