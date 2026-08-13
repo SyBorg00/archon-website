@@ -53,7 +53,7 @@ img {
 }
 
 .golden-text {
-    color: #c9a227;
+    color: #CB9F53;
     font-size: 12px;
     letter-spacing: 1px;
 }
@@ -1014,7 +1014,7 @@ img {
 
 
 /* =========================================
-   NEWS
+   NEWS SECTION
 ========================================= */
 
 .news-grid {
@@ -1031,41 +1031,75 @@ img {
 
     border-radius: 10px;
 
-    background: #242424;
+    background: white;
+
+    transition: transform 0.3s ease;
+}
+
+/* For a bit of neat nteraction */
+.news-card:hover {
+    transform: scale(1.03);
 }
 
 .news-image {
     height: 190px;
-
     display: grid;
     place-items: center;
 
     background: #333;
+    color: white;
 
-    color: #777;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.news-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .news-info {
+    display: flex;
+    flex-direction: column;
+
     padding: 20px;
+    background-color: white;
+    color: black;
 }
 
 .news-info h3 {
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 900;
+
 }
 
 .news-info a {
-    display: inline-block;
-
-    margin-top: 15px;
-
-    color: #c60012;
+    margin-top: auto;
+    align-self: flex-end;
 
     font-size: 12px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    padding-bottom: 4px;
+
+    border-bottom: 2px solid #c60012;
+
+    transition: color 0.2s ease,
+        border-color 0.2s ease;
+}
+
+/* A bit of also a nice color change animation */
+.news-info a:hover {
+    color: #90000d;
+    border-color: #90000d;
 }
 
 
 /* =========================================
-   FOOTER
+   FOOTER SECTION
 ========================================= */
 
 .footer {
@@ -1155,7 +1189,7 @@ img {
 
 
 /* =========================================
-   RESPONSIVE
+   RESPONSIVE SECTION
 ========================================= */
 
 @media (max-width: 768px) {
@@ -1250,7 +1284,7 @@ img {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
 
     .container {
         width: min(100% - 25px, 1200px);

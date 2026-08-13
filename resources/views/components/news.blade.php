@@ -45,7 +45,7 @@ $news = [
                 <div class="news-image">
 
                     <img
-                        src="{{ asset('resources/images/' . $article['image']) }}"
+                        src="{{ asset('images/' . $article['image']) }}"
                         alt="{{ $article['title'] }}">
 
                 </div>
@@ -58,7 +58,8 @@ $news = [
                     </h3>
 
                     <a href="#">
-                        Read More →
+                        <span class="golden-text">→</span>
+                        Read Article
                     </a>
 
                 </div>
