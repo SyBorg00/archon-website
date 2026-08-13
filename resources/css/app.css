@@ -1299,7 +1299,7 @@ NEWS SECTION
     background-image: url("../../public/images/bg-article.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 /*The container that holds the content*/
