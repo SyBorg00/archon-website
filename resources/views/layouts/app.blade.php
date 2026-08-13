@@ -23,8 +23,6 @@
 <body>
     <x-notification />
 
-    @yield('content')
-
     @include('components.navbar')
 
     <main>
