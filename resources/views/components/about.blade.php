@@ -27,14 +27,12 @@
                     <img src="{{ asset('icons/free-delivery.png') }}" alt="Free Delivery Icon" class='about-icon'>
                 </div>
 
-
-
                 <h3>
                     Free Delivery
                 </h3>
 
                 <p>
-                    Gettng hold of your new truck is no hassle because we deliver
+                    Getting hold of your new truck is no hassle because we deliver
                     them to you at your doorstep!
                 </p>
 

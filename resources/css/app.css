@@ -288,6 +288,7 @@ img {
 
     color: #aaa;
 
+    font-size: 20px;
     line-height: 1.7;
 }
 
@@ -306,7 +307,7 @@ img {
 
 .banner-secondary p {
     max-width: 400px;
-
+    font-size: 20px;
     margin: 0 0 20px;
 
     color: #aaa;
@@ -387,6 +388,10 @@ img {
     padding: 10px 70px 125px 70px;
 }
 
+.about-container h2 {
+    font-size: clamp(25px, 3vw, 36px);
+}
+
 .about-grid {
     margin-top: 40px;
 
@@ -431,8 +436,7 @@ img {
 }
 
 .about-card p {
-    color: #aaa;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 /*A wrapper div for the number and icon */
