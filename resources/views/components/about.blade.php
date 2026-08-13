@@ -17,7 +17,7 @@
         <div class="about-grid">
 
             <!-- Card 1 -->
-            <div class="about-card active">
+            <div class="about-card">
 
                 <div class="about-card-top">
                     <span class="about-number">

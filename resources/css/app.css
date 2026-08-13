@@ -389,9 +389,10 @@ img {
     border-radius: 18px;
 
     background: rgb(48, 48, 48, 0.8);
+    transition: 0.3s ease;
 }
 
-.about-card.active {
+.about-card:hover {
     background: #c60012;
 }
 
