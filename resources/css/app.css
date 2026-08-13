@@ -808,20 +808,22 @@ img {
 /* The yellow rectangle itself */
 
 .product-highlight {
+
+    background-image: url("../../public/shapes-line/bg-truck-shape.png");
     position: absolute;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    background-position: center;
 
     width: 82%;
 
-    height: 75px;
+    height: 70%;
 
     left: 50%;
     top: 50%;
 
     transform: translate(-50%, -50%);
-
-    border: 2px solid #c89b3c;
-
-    border-radius: 2px;
 
     opacity: 0;
 
