@@ -55,7 +55,7 @@ img {
 
 .golden-text {
     color: #CB9F53;
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
 }
 
@@ -350,14 +350,19 @@ img {
    ABOUT SECTION
 ========================================= */
 
-.about-container {
-    padding: 30px 70px 125px 70px;
-    background: #242424;
-    background-image: url('../../public/images/world-map-2.png');
-    background-size: cover;
-    background-position: center;
+
+.about {
+    background: #272727;
+    background-image: url("../../public/images/world-map-2.png");
+
+    background-size: 70%;
+    background-position: center 20%;
     background-repeat: no-repeat;
     border-radius: 20px;
+}
+
+.about-container {
+    padding: 10px 70px 125px 70px;
 }
 
 .about-grid {
@@ -378,7 +383,7 @@ img {
 
     border-radius: 18px;
 
-    background: #303030;
+    background: rgb(48, 48, 48, 0.8);
 }
 
 .about-card.active {
@@ -436,7 +441,7 @@ img {
 
     margin: 40px 0 0 auto;
 
-    color: #aaa;
+    color: white;
 }
 
 
